@@ -13,11 +13,6 @@ data/raw/Whole_HK_DTM_5m.zip
 # Base-map tiles fetched at build time. Pure cache, throws itself away.
 data/derived/tiles/
 
-# --- Regenerable renders --------------------------------------------------
-# `python src/make_map.py --png` produces these in a few seconds.
-data/out/map.png
-data/out/map_corridor.png
-
 # --- Stray archives -------------------------------------------------------
 *.zip
 *.7z
