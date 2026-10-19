@@ -1,0 +1,6 @@
+facility_id,name,class,total_length_m,total_rise_m,direction,direction_source,source_doc,osm_way_count,note
+F_CENTRE_ST_ESC,Centre Street Escalator Link,escalator,114.5,24.8,asymmetric,document,DC-TTC-2018-02-01 (annex items 40-41),16,"uphill fully assisted; downhill only ~25 m assisted; OSM geometry totals 89 m with one belt per paired flight, against the documented 85 m - to be checked on site"
+F_MTR_SYP,MTR Sai Ying Pun Station (exits B1/B2/B3),access_point,118.3,16.5,both,document,MTR Corporation,11,concourse escalators to exits B1/B2/B3
+F_HKU_EAST_GATE,HKU East Gate (Bonham Road),mixed_escalator_lift,236.9,40.6,both,document,HKU news release 2025-03-25,13,2 escalators + 3 lifts; reopened 2025-03-25
+F_MTR_HKU,MTR HKU Station (exits A1/A2/C1),access_point,125.1,44.7,both,document,MTR Corporation,5,"8 lifts at A1/A2, 4 at C1; one lift open 24 h for students; station escalators run within station hours"
+F_LIFTS_GENERIC,Lift segments inside the bbox,lift,13.2,,both,osm,OSM highway=elevator,1,vertical rise not modelled; treat as a level change

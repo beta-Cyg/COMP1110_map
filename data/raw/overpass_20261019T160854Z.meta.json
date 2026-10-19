@@ -1,0 +1,40 @@
+{
+  "fetched_at_utc": "2026-10-19T16:08:54.134401+00:00",
+  "endpoint": "https://overpass.openstreetmap.fr/api/interpreter",
+  "bbox": [
+    22.276,
+    114.124,
+    22.294,
+    114.152
+  ],
+  "proxy": "http://127.0.0.1:3185",
+  "query": "[out:json][timeout:300];\n(\n  way(22.276,114.124,22.294,114.152)[\"highway\"];\n  way(22.276,114.124,22.294,114.152)[\"conveying\"];\n  node(22.276,114.124,22.294,114.152)[\"highway\"=\"elevator\"];\n  node(22.276,114.124,22.294,114.152)[\"elevator\"];\n)->.sel;\n.sel out body;\nnode(w.sel)->.nds;\n.nds out skel qt;\n",
+  "sha256": "9ff9c37e44c8dd0d895c4b9c1a168d35d5f1ac43ee4ca09dcf68dcc83c832ffd",
+  "bytes": 3286201,
+  "total_elements": 22812,
+  "ways": 4541,
+  "nodes": 18271,
+  "osm_base": "2026-10-19T16:07:50Z",
+  "highway_counts": {
+    "footway": 2271,
+    "steps": 565,
+    "service": 527,
+    "secondary": 305,
+    "primary": 162,
+    "tertiary": 151,
+    "residential": 120,
+    "unclassified": 109,
+    "pedestrian": 90,
+    "trunk_link": 88,
+    "trunk": 62,
+    "path": 46,
+    "primary_link": 15,
+    "secondary_link": 14,
+    "corridor": 7,
+    "tertiary_link": 4,
+    "track": 2,
+    "elevator": 1,
+    "living_street": 1,
+    "ladder": 1
+  }
+}

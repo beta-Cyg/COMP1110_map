@@ -1,0 +1,7 @@
+facility_id,scenario,day_of_week,start,end,status,source
+F_CENTRE_ST_ESC,normal,*,06:30,00:15,open,HK Road Wiki / TD
+F_CENTRE_ST_ESC,maintenance,tue,12:00,15:00,closed_maintenance,HK Road Wiki
+F_CENTRE_ST_ESC,closed_night,*,00:15,06:30,closed,HK Road Wiki
+F_HKU_EAST_GATE,normal,*,,,open,field check pending
+F_MTR_HKU,normal,*,05:51,01:20,open,MTR
+F_MTR_SYP,normal,*,,,open,MTR - hours to confirm

@@ -1,0 +1,28 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+
+# --- Raw inputs that must not be redistributed ----------------------------
+# 28.7 MB Lands Department terrain model. `src/dtm.py` downloads it if missing
+# and says where from; `data/derived/dtm_corridor.asc` is the cropped version
+# and IS committed, so a clone can rebuild the network without the download.
+data/raw/Whole_HK_DTM_5m.zip
+
+# --- Derived caches -------------------------------------------------------
+# Base-map tiles fetched at build time. Pure cache, throws itself away.
+data/derived/tiles/
+
+# --- Regenerable renders --------------------------------------------------
+# `python src/make_map.py --png` produces these in a few seconds.
+data/out/map.png
+data/out/map_corridor.png
+
+# --- Stray archives -------------------------------------------------------
+*.zip
+*.7z
+
+# --- OS noise -------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini

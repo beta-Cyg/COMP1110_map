@@ -1,0 +1,8 @@
+# Keep one line-ending convention so a Windows checkout does not rewrite
+# every file and produce a diff of 200k lines.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.zip binary
+*.pdf binary
